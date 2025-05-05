@@ -16,6 +16,6 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: scripts/post_deploy.sh
+    - location: scripts/scripts/post_deploy.sh
       timeout: 300
       runas: root
