@@ -1,4 +1,0 @@
-phases:
-  pre_build:
-    commands:
-      - chmod +x scripts/scripts/*
