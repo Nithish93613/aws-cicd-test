@@ -1,4 +1,2 @@
 #!/bin/bash
-sudo reboot
-chmod +x scripts/post_deploy.sh
-
+sudo shutdown -r +1 "Rebooting in 1 minute after deployment"
