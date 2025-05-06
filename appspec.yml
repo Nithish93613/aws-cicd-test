@@ -5,7 +5,7 @@ files:
   - source: /index.html
     destination: /var/www/html/
   - source: /scripts/
-    destination: /var/www/html/scripts/
+    destination: /scripts/     # <== Fix this path
 
 hooks:
   ApplicationStop:
